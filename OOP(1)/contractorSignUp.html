@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SteelHub - Contractor Sign-Up</title>
+  <link rel="stylesheet" href="contractorSignUp.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>STEELHUB</h1>
+    <a href="index.html" class="home-btn">Home</a>
+  </div>
+
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Contractor Sign-Up</h2>
+      <form action="classes/Register.php" method="POST">
+        <div class="form-group">
+          <label for="contractor-name">UserName</label>
+          <input type="text" id="contractor-name" name="name" placeholder="Enter your username" required />
+        </div>
+        <div class="form-group">
+          <label for="contractor-email">Email</label>
+          <input type="email" id="contractor-email" name="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="contractor-phone">Phone Number</label>
+          <input type="text" id="contractor-phone" name="phone" placeholder="Enter your phone number" required />
+        </div>
+        <div class="form-group">
+          <label for="contractor-password">Password</label>
+          <input type="password" id="contractor-password" name="password" placeholder="Create a password" required />
+        </div>
+        <div class="form-group">
+          <label for="contractor-confirm-password">Confirm Password</label>
+          <input type="password" id="contractor-confirm-password" name="confirmPassword" placeholder="Confirm your password" required />
+        </div>
+        <button type="submit" name="submit">Sign Up</button>
+        <div class="text-center">
+          <p>Already have an account? <a href="contractor.html" class="signup-link">Login</a></p>
+        </div>
+      </form
+      
+    </div>
+  </div>
+
+  <script src="contractor.js"></script>
+</body>
+</html>

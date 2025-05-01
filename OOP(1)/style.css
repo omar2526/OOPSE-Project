@@ -1,0 +1,115 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+body {
+  font-family: sans-serif;
+  background-color: #1f2937; /* Tailwind's gray-900 */
+  color: #f5f5f4; /* Tailwind's stone-100 */
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #facc15; /* yellow-400 */
+  letter-spacing: 2px;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fcd34d; /* yellow-300 */
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 6rem 1.5rem;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #facc15;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-content p {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.featured {
+  background-color: #292524; /* stone-800 */
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.featured h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #facc15;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.warehouses {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background-color: #1c1917; /* stone-900 */
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #44403c; /* stone-700 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fde68a; /* yellow-300 */
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}

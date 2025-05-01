@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SteelHub - Warehouse Sign-Up</title>
+  <link rel="stylesheet" href="warehouseSignUp.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>STEELHUB</h1>
+    <a href="index.html" class="home-btn">Home</a>
+  </div>
+
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Warehouse Sign-Up</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="warehouse-name">Warehouse Name</label>
+          <input type="text" id="warehouse-name" name="name" placeholder="Enter your warehouse name" required />
+        </div>
+        <div class="form-group">
+          <label for="warehouse-location">Warehouse Location</label>
+          <input type="text" id="warehouse-location" name="location" placeholder="Enter warehouse location" required />
+        </div>
+        <div class="form-group">
+          <label for="manager-first-name">Manager's First Name</label>
+          <input type="text" id="manager-first-name" name="manager_first_name" placeholder="Enter manager's first name" required />
+        </div>
+        <div class="form-group">
+          <label for="manager-last-name">Manager's Last Name</label>
+          <input type="text" id="manager-last-name" name="manager_last_name" placeholder="Enter manager's last name" required />
+        </div>
+        <div class="form-group">
+          <label for="manager-email">Manager's Email</label>
+          <input type="email" id="manager-email" name="manager_email" placeholder="Enter manager's email" required />
+        </div>
+        <div class="form-group">
+          <label for="manager-phone">Manager's Phone Number</label>
+          <input type="tel" id="manager-phone" name="manager_phone" placeholder="Enter manager's phone number" required />
+        </div>
+        <div class="form-group">
+          <label for="warehouse-password">Password</label>
+          <input type="password" id="warehouse-password" name="password" placeholder="Create a password" required />
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="text-center">
+          <p>Already have an account? <a href="warehouseLogin.html" class="signup-link">Login</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="warehouseSignUp.js"></script>
+</body>
+</html>
